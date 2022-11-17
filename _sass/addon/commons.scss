@@ -461,24 +461,21 @@ img[data-src] {
     }
   }
 
-  ol,
-  ul {
-    &:not([class]),
-    &.task-list {
-      -webkit-padding-start: 1.75rem;
-      padding-inline-start: 1.75rem;
+  > ol,
+  > ul {
+    -webkit-padding-start: 1.75rem;
+    padding-inline-start: 1.75rem;
 
-      li {
-        margin: 0.25rem 0;
-        padding-left: 0.25rem;
-      }
+    li {
+      margin: 0.25rem 0;
+      padding-left: 0.25rem;
+    }
 
-      ol,
-      ul {
-        -webkit-padding-start: 1.25rem;
-        padding-inline-start: 1.25rem;
-        margin: 0.5rem 0;
-      }
+    ol,
+    ul {
+      -webkit-padding-start: 1rem;
+      padding-inline-start: 1rem;
+      margin: 0.5rem 0;
     }
   }
 
@@ -641,10 +638,10 @@ $sidebar-display: "sidebar-display";
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
+  background: var(--sidebar-bg);
   background: url('/assets/img/sidebar.jpg');
   background-size: 100% 100%;
   background-position: center;
-
 
   /* Hide scrollbar for Chrome, Safari and Opera */
   &::-webkit-scrollbar {
