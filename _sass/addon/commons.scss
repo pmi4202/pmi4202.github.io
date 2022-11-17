@@ -639,7 +639,7 @@ $sidebar-display: "sidebar-display";
   width: $sidebar-width;
   z-index: 99;
   background: var(--sidebar-bg);
-  background: url('/assets/img/sidebar.jpg');
+  background: url('/assets/img/sidebar2.jpg'); 
   background-size: 100% 100%;
   background-position: center;
 
@@ -702,13 +702,14 @@ $sidebar-display: "sidebar-display";
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
-      color: rgba(134, 133, 133, 0.99);
+      color: rgba(254, 254, 254, 99%);
     }
   }
 
   .site-subtitle {
     font-size: 95%;
-    color: var(--sidebar-muted-color);
+    // color: var(--sidebar-muted-color);
+    color: rgba(254, 254, 254, 99%);
     line-height: 1.25rem;
     word-spacing: 1px;
     margin: 0.2rem 1.5rem 0.5rem 1.5rem;
