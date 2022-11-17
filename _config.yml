@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: 포메라니안      # the main title
 
-tagline: 네발로 코딩하는 포메라니안   # it will display as the sub-title
+tagline: 네발로 코딩하는 포메   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
