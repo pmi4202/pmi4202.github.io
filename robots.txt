@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pmi4202.github.io/sitemap.xml
