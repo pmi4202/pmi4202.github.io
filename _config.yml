@@ -19,7 +19,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 포메라니안      # the main title
+title: 포메      # the main title
 
 tagline: 네발로 코딩하는 포메   # it will display as the sub-title
 
