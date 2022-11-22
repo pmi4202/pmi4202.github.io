@@ -38,5 +38,5 @@ public class HttpEntity<T> {
 - HttpHeaders
 - HttpBody
 
-*[spring 참고문서]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/http/ResponseEntity.html
+*<a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/http/ResponseEntity.html">[spring 참고문서]</a>
 <img src="./assets/img/post/springboot_response_entity_docs.jpg" width="200" height="200"/>
