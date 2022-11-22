@@ -14,6 +14,8 @@ tags: [spring, SpringBoot, ResponseEntity, restapi]
     - @ResponseBody : 객체를 넣으면, 알맞은 header, body, status를 만들어준다.
     - @ResponseStatus(HttpStatus.OK) : 직접 상태를 만들어 줄 수 있다.
 
+<br>
+
 ***HttpEntity**
 
 - HTTP요청 또는 응답을 모두 처리하는 클래스
@@ -38,6 +40,7 @@ public class HttpEntity<T> {
 - HttpHeaders
 - HttpBody
 
+<br>
 *<a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/http/ResponseEntity.html">[spring 참고문서]</a>
 <br>
 <img src="/assets/img/post/springboot_response_entity_docs.jpg" width="500" height="300"/>
