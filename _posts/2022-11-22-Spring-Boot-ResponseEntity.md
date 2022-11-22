@@ -3,7 +3,7 @@ title: Spring Boot ResponseEntity
 author: yerin
 date: 2022-11-22 16:34:00
 categories: [SpringBoot]
-tags: [spring, springboot, ResponseEntity, restapi]
+tags: [spring, SpringBoot, ResponseEntity, restapi]
 ---
 
 # ResponseEntity란?
