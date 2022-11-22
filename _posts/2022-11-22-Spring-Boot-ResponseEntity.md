@@ -29,6 +29,7 @@ public class HttpEntity<T> {
 }
 ```
 
+<br>
 # ResponseEntity 구조
 
 총 3가지 속성을 설정할 수 있고, 구체적으로는 공식문서의 생성자를 참고해서 작성하면 된다.
@@ -36,3 +37,6 @@ public class HttpEntity<T> {
 - HttpStatus
 - HttpHeaders
 - HttpBody
+
+*[spring 참고문서]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/http/ResponseEntity.html
+<img src="./assets/img/post/springboot_response_entity_docs.jpg" width="200" height="200"/>
