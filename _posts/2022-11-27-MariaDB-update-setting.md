@@ -42,4 +42,5 @@ DB의 root계정명 뿐만 아니라 DB포트를 3306을 권장하지 않는 것
   rename user 'root'@'localhost' to 'test'@'localhost';
 ```
 
+- mysql 데이터베이스에서 계정 정보 조회한 후, 변경하고 싶은 username을 바꾼다.
 - 위의 예시에서는 root 계정을 test로 바꾸고 있다.
