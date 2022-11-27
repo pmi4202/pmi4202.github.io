@@ -1,5 +1,5 @@
 ---
-title: MariaDB root계정 정보 변경하기
+title: MariaDB 계정정보 변경하기
 author: yerin
 date: 2022-11-27 23:40:00 +0900
 categories: [MariaDB]
@@ -10,6 +10,15 @@ tags: [server, docker, mariadb]
 
 DB보안을 위해서 해야하는 것이다. default로 설정된 값 혹은 흔히 사용하는 값은 탈취될 위험이 크다.
 DB의 root계정명 뿐만 아니라 DB포트를 3306을 권장하지 않는 것도 같은 맥락이다.
+
+<br>
+
+## root계정 비밀번호 변경하기
+
+```java
+  set password for 'root'@'localhost' = PASSWORD('password');
+  flush privileges;
+```
 
 <br>
 
