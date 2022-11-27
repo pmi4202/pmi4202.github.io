@@ -6,12 +6,14 @@ categories: [MariaDB]
 tags: [server, docker, mariadb]
 ---
 
-## root계정 사용자명 변경하기
+## 왜 변경해야 하는가?
 
-0. 왜 변경해야 하는가?
-   DB보안을 위해서 해야하는 것이다. default로 설정된 값 혹은 흔히 사용하는 값은 탈취될 위험이 크다. DB의 root계정명 뿐만 아니라 DB포트를 3306을 권장하지 않는 것도 같은 맥락이다.
+DB보안을 위해서 해야하는 것이다. default로 설정된 값 혹은 흔히 사용하는 값은 탈취될 위험이 크다.
+DB의 root계정명 뿐만 아니라 DB포트를 3306을 권장하지 않는 것도 같은 맥락이다.
 
 <br>
+
+## root계정 사용자명 변경하기
 
 1. mariadb container 진입
 
