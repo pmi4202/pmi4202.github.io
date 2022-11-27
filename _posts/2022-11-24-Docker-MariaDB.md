@@ -6,7 +6,7 @@ categories: [MariaDB]
 tags: [server, docker, mariadb]
 ---
 
-## 1. docker image pull해오기(이건 이미 있으므로 pass함)
+## 1. docker image pull해오기
 
 ```java
 docker pull mariadb:[버전명]
