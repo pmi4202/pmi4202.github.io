@@ -25,21 +25,20 @@ DB의 root계정명 뿐만 아니라 DB포트를 3306을 권장하지 않는 것
 ## root계정 사용자명 변경하기
 
 1. mariadb container 진입
-
-```java
-  docker exec -it mariadb /bin/bash
-```
-
-- 여기서 mariadb는 컨테이너명
-- 초기 비밀번호를 설정한 적이 없다면, 안 적어도 되는 것 같다.
-
+    
+    ```java
+    docker exec -it mariadb /bin/bash
+    ```
+    
+    - 여기서 mariadb는 컨테이너명
+    - 초기 비밀번호를 설정한 적이 없다면, 안 적어도 되는 것 같다.
 2. username 변경하기
 
 ```java
-  mysql -uroot -p초기비밀번호
-  use mysql
-  select Host,User,Password from user;
-  rename user 'root'@'localhost' to 'test'@'localhost';
+mysql -uroot -p초기비밀번호
+use mysql
+select Host,User,Password from user;
+rename user 'root'@'localhost' to 'test'@'localhost';
 ```
 
 - 위의 예시에서는 root 계정을 test로 바꾸고 있다.
