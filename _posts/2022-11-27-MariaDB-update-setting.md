@@ -2,7 +2,7 @@
 title: MariaDB 계정정보 변경하기
 author: yerin
 date: 2022-11-27 23:40:00 +0900
-categories: [MariaDB]
+categories: [Server, MariaDB]
 tags: [server, docker, mariadb]
 ---
 
