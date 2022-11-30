@@ -149,10 +149,10 @@ defaults:
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
   - scope:
-      author_profile: true
       path: _drafts
     values:
       comments: false
+      author_profile: true
   - scope:
       path: ''
       type: tabs             # see `site.collections`
