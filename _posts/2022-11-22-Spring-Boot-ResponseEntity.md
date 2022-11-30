@@ -1,6 +1,5 @@
 ---
 title: '[SpringBoot] ResponseEntity'
-author: yerin
 date: 2022-11-22 16:34:00 +0900
 categories: [SpringBoot]
 tags: [spring, SpringBoot, ResponseEntity, restapi]

@@ -1,6 +1,5 @@
 ---
 title: MariaDB Docker로 설치하고 실행하기
-author: yerin
 date: 2022-11-24 23:50:00 +0900
 categories: [MariaDB]
 tags: [server, docker, mariadb]
