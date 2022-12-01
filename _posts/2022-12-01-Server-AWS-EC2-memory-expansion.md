@@ -18,6 +18,8 @@ free
 - Spring boot를 gradle build하는 순간 서버가 폭발해버릴 것이다.
 - 스왑파일을 만들어 메모리영역을 늘려보자
 
+<br>
+
 ## Swap이란?
 
 ---
@@ -32,9 +34,11 @@ free
 | RAM 2GB 초과, 32GB 미만 | 4GB + (RAM - 2GB) |
 | RAM 32GB 이상 | RAM 용량의 1배 |
 
-참고 : 스왑 공간은 절대 32MB 미만이 되지 않아야 한다.
+스왑 공간은 절대 32MB 미만이 되지 않아야 한다.
 
 **EC2의 free tier**에서는 RAM 1GB이므로, 스왑은 RAM의 2배인 **2GB**로 잡자
+
+<br>
 
 ## Swap 활용하기
 
@@ -78,6 +82,7 @@ free
     /swapfile swap swap default 0 0
     ```
     
+<br>
 
 ## 결과
 
