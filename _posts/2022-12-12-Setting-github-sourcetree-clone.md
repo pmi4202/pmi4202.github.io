@@ -1,6 +1,6 @@
 ---
 title: "[Setting] Github 소스트리 유효한 소스 경로/url 이 아닙니다"
-date: 2022-12-12 18:08:00 +0900
+date: 2022-12-12 23:30:00 +0900
 categories: [Setting, Github]
 tags: [Setting, Github, SourceTree, 소스트리]
 ---
